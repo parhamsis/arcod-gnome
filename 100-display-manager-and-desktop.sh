@@ -47,11 +47,7 @@ echo "Installation of the core software"
 ###############################################################################
 
 list=(
-sddm
-arcolinux-wallpapers-git
 gnome
-gnome-tweaks
-guake
 )
 #gnome-extra can be added too
 
@@ -73,10 +69,10 @@ cp -Rf ~/.config ~/.config-backup-$(date +%Y.%m.%d-%H.%M.%S)
 cp -arf /etc/skel/. ~
 
 tput setaf 5;echo "################################################################"
-echo "Enabling sddm as display manager"
+echo "Enabling gdm as display manager"
 echo "################################################################"
 echo;tput sgr0
-sudo systemctl enable sddm.service -f
+sudo systemctl enable gdm.service -f
 
 tput setaf 7;echo "################################################################"
 echo "You now have a very minimal functional desktop"
