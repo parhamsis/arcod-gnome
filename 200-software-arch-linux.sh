@@ -55,7 +55,7 @@ func_category() {
 func_category Accessories
 
 list=(
-variety
+
 )
 
 count=0
@@ -70,7 +70,6 @@ done
 func_category Development
 
 list=(
-atom
 meld
 sublime-text-4
 )
@@ -87,9 +86,7 @@ done
 func_category Graphics
 
 list=(
-gimp
-inkscape
-nomacs
+blender
 )
 
 count=0
@@ -104,8 +101,7 @@ done
 func_category Internet
 
 list=(
-chromium
-qbittorrent
+firefox
 )
 
 count=0
@@ -120,7 +116,7 @@ done
 func_category Multimedia
 
 list=(
-vlc
+
 )
 
 count=0
@@ -135,7 +131,7 @@ done
 func_category Office
 
 list=(
-evince
+
 )
 
 count=0
@@ -151,7 +147,6 @@ func_category System
 
 list=(
 dconf-editor
-arc-gtk-theme
 )
 
 count=0
