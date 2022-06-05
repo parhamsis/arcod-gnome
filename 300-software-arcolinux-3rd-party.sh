@@ -55,7 +55,7 @@ func_category() {
 func_category Accessories
 
 list=(
-mintstick-git
+
 )
 
 count=0
@@ -70,7 +70,7 @@ done
 func_category Multimedia
 
 list=(
-peek
+
 )
 
 count=0
@@ -87,8 +87,6 @@ func_category System
 
 list=(
 downgrade
-inxi
-pamac-all
 )
 
 count=0
