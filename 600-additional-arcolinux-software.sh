@@ -58,12 +58,6 @@ list=(
 arcolinux-config-gnome-git
 arcolinux-gnome-dconf-git
 arcolinux-gnome-git
-thunar
-thunar-archive-plugin
-thunar-volman
-xfce4-terminal
-arcolinux-xfce-git
-arcolinux-local-xfce4-git
 )
 
 count=0
@@ -80,9 +74,7 @@ list=(
 arcolinux-bin-git
 arcolinux-hblock-git
 arcolinux-root-git
-arcolinux-termite-themes-git
 archlinux-tweak-tool-git
-arcolinux-variety-git
 )
 
 count=0
